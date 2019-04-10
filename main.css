@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body, html{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(16, 16, 16);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+header, nav, #rgb-question-value{
+    color: white;
+    text-align: center;
+}
+header{
+    background-color:#003A60;
+    margin-top: 0;
+    padding: 4px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#nav-container{
+    background-color: rgb(114, 0, 2);
+    padding: 0px 20%;
+}
+#reset-game:hover{
+    background-color: rgb(255, 250, 108);
+}
+#square-container{
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+#top-half-squares, #bottom-half-squares{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.squares{
+    background-color: white;
+    border-radius: 5%;
+    padding: 0px;
+    height: 200px;
+    width:200px;
+    margin: 3%;
+}
+#top-half-squares, #bottom-half-squares{
+    display: flex;
+    width: 100%;
+}
+.difficulty-option-one{
+    margin: 0;
+}
+.difficulty-option:hover{
+    background-color: rgb(255, 250, 108);
+}
+.difficulty-option-div{
+    display: flex;
+}
+#score{
+    color: white;
+    margin: 0 auto;
+    background-color: black;
+    width: fit-content;
+    padding: 20px;
+}
