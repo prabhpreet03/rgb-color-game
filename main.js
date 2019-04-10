@@ -23,6 +23,7 @@ function resetGame(nums){
     }
     // score = 0;
     header.style.background = "#003A60";
+    navbar.style.backgroundColor=randomColorCreator();
 }
 resetBtn.addEventListener("click", function(){
     // alert("yup");
